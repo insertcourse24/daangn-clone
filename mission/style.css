@@ -5,3 +5,94 @@
 
   font-family: -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+section {
+  padding-top: 24px;
+  background-color: #FFFAE0;
+}
+
+#home-main-top{
+  position: relative;
+
+  width: 1024px;
+  height: 760px;
+
+  margin: 0 auto;
+
+
+  background-color: #FFFAE0;
+}
+
+
+#home-main-image-top{
+  position: absolute;
+  right: -168px;
+  bottom: 0;
+
+  width: 655px;
+  height: 800px;
+
+  background-repeat: no-repeat;
+  background-size: 804px 685px;
+}
+
+
+#rabbit-img{
+  width: 655px;
+  height: 800px;
+
+
+  /* position: relative;
+  right: -352px;
+  top: -270px; */
+}
+
+#home-main-desc > h1 {
+  margin-bottom: 32px;
+  padding-top: 200px;
+
+  color: rgb(33, 37, 41);
+
+  line-height: 73px;
+  font-size: 54px;
+  font-weight: 700;
+}
+
+#home-main-desc > p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+
+  color: rgb(124, 124, 124);
+}
+
+.download-btns {
+  display: flex;
+  gap: 13px;
+  
+  margin-top: 30px;
+}
+
+.store-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  gap: 8px;
+
+  width: 180px;
+  height: 56px;
+
+  color: #ffffff;
+  background-color: rgb(255, 111, 15);
+
+  border: none;
+  border-radius: 10px;
+
+  padding: 14px 20px;
+
+  font-weight: 600;
+  font-size: 16px;
+
+  text-decoration: none;
+}
