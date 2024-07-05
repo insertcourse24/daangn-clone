@@ -1,0 +1,46 @@
+#fleamarket-cover {
+    height: 315px;
+    padding: 0 16px 0 16px;
+
+    background-color: #FFF1AA;
+
+}
+
+#cover-content{
+    height: 100%;
+    max-width: 768px;
+
+    padding-top: 50px;
+    margin: 0 auto;
+    
+}
+
+#cover-content > h1 {
+    line-height: 1.5;
+    letter-spacing: -0.32px;
+    font-size: 34px;
+
+    color: rgb(33, 37, 41);
+}
+
+#cover-content > p {
+    margin-top: 16px;
+
+    font-size: 18px;
+    line-height: 1.32;
+    letter-spacing: -0.18px;
+
+    color: rgb(33, 37, 41);
+}
+
+
+#fleamarket-cover-img {
+    position: absolute;
+    top: 64px;
+    right: 456px;
+}
+
+#fleamarket-cover-img > img {
+    width: 416px;
+    height: 315px;
+}
