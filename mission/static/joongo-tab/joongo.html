@@ -4,13 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>당근마켓 클론</title>
-    <link rel="stylesheet" href="/mission/static/default.css" />
-    <link rel="stylesheet" href="/mission/static/header.css" />
-    <link
-      rel="stylesheet"
-      href="/mission/static/joongo-tab/fleamarket-cover.css"
-    />
-    <link rel="stylesheet" href="/mission/static/joongo-tab/article-list.css" />
+    <link rel="stylesheet" href="../default.css" />
+    <link rel="stylesheet" href="../header.css" />
+    <link rel="stylesheet" href="./fleamarket-cover.css" />
+    <link rel="stylesheet" href="./article-list.css" />
+    <script src="../component/component.js"></script>
   </head>
   <body>
     <header>
@@ -69,22 +67,19 @@
     <section id="fleamarket-article-list">
       <h1>중고거래 인기매물</h1>
       <div id="card-wrap">
-        <article class="card">
-          <a href="">
-            <div class="card-photo">
-              <img src="/assets/kitty.png" alt="" />
-            </div>
-            <div class="card-desc">
-              <h2 class="card-title">고양이기타</h2>
-              <p class="card-price">30,000원</p>
-              <p class="card-region-name">부산광역시 강서구</p>
-              <div class="card-counts">
-                <span> 관심 100 </span> ∙ <span> 채팅 100 </span>
-              </div>
-            </div>
-          </a>
-        </article>
+        <card-comp
+          title="kitty"
+          price="2000"
+          region-name="부산광역시 강서구 가락대로 1393"
+          imgSrc="/assets/kitty.png"
+        ></card-comp>
       </div>
     </section>
   </body>
 </html>
+
+<!--TODO:
+1. 파비콘 추가
+2. 중고거래 주황색 되게
+3. JSON 뜯기 만드렁야함
+-->
