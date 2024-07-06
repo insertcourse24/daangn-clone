@@ -87,3 +87,7 @@ border-radius: 4px;
 font-weight: 600;
 font-size: 16px;
 }
+
+.orange-color {
+    color: rgb(255, 111, 15) !important;
+}
