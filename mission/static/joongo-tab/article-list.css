@@ -1,3 +1,7 @@
+main {
+    margin-top: 64px;
+}
+
 #fleamarket-article-list {
     padding-top: 64px;
 }
@@ -7,15 +11,14 @@
     line-height: 43.2px;
     text-align: center;
 
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
-
 
 #card-wrap {
     width: 757px;
-
+    
     margin: 0px auto;
-
+    
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -52,7 +55,7 @@
 
 .card-title {
     margin-bottom: 4px;
-
+    
     color: #212529;
     
     font-size: 16px;
@@ -65,7 +68,7 @@
     margin-bottom: 4px;
     
     color: rgb(33, 37, 41);
-
+    
     font-size: 15px;
     font-weight: 700;
     line-height: 1.5;
@@ -83,4 +86,18 @@
 .card-counts{
     color: #868e96;
     font-size: 13px;
+}
+
+.a-black-bold {
+    font-size: 16px;
+    font-weight:600;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+
+    color: rgb(33, 37, 41);
+}
+
+#article-list-more {
+    padding-bottom: 80px;
+    text-align: center;
 }

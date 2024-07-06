@@ -1,3 +1,6 @@
+main {
+  margin-top: 64px;
+}
 
 section {
   padding-top: 24px;
@@ -13,14 +16,15 @@ section {
   margin: 0 auto;
 
 
-  background-color: #FFFAE0;
+  /* background-color: #FFFAE0; */
 }
 
 
 #home-main-image-top{
   position: absolute;
   right: -168px;
-  bottom: 0;
+  /* bottom: 0px; */
+  top: -240px;
 
   width: 655px;
   height: 800px;
@@ -34,7 +38,7 @@ section {
 
 #home-main-desc > h1 {
   margin-bottom: 32px;
-  padding-top: 200px;
+  margin-top: 200px;
 
   color: rgb(33, 37, 41);
 
