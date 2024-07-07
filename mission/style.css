@@ -96,30 +96,33 @@ button {
   font-size: 16px;
 }
 
-main {
+main,
+#section1,
+#section2,
+#section3,
+#section4,
+footer {
   height: 750px;
+}
+
+main {
   background-color: #fffae0;
 }
 
-#section1 {
-  height: 750px;
+#section1,
+#section3 {
   background-color: #f9f9f9;
 }
+
 #section2 {
-  height: 750px;
   background-color: #fff8f1;
 }
-#section3 {
-  height: 750px;
-  background-color: #f9f9f9;
-}
+
 #section4 {
-  height: 750px;
   background-color: #f6fdeb;
 }
 
 footer {
   height: 647.52px;
-  margin: 0 auto;
   background-color: #ffffff;
 }
