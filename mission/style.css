@@ -138,6 +138,7 @@ input[type=text]{
   width:270px;
   height: 40px;
   font-size: 15px;
+  padding-left:15px;
   background-color: rgb(238, 238, 238);
   border-radius: 5px;
   border:none;
