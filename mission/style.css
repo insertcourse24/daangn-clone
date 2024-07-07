@@ -5,12 +5,95 @@
 }
 
 header {
+  display: flex;
+  justify-content: space-around;
   position: sticky;
   top: 0px; /* 도달했을때 고정시킬 위치 */
-  padding: 5px;
-  /*z-index: 10;*/
   height: 64px;
   background-color: #ffffff;
+}
+#wrapLogo {
+  width: 103px;
+  height: 38px;
+}
+#logo {
+  width: 63px;
+  height: 33px;
+}
+a {
+  text-align: center;
+}
+a:visited {
+  color: black;
+}
+a:hover{
+  color: #868b94;
+}
+a:click {
+  color: #fe6f0f;
+}
+
+.bigBox1 {
+  width: 1155px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  width: 670px;
+  height: 25px;
+  margin: 0 auto;
+}
+
+#wrapInputText {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 389.37px;
+  height: 38px;
+}
+
+.menu {
+  display: flex;
+  float:left;
+  gap: 29px;
+}
+.menu li {
+  font-weight: 30%;
+  font-size: 113%;
+  display:inline-block;
+  text-align:center;
+}
+
+input[type=text] {
+  width: 140%;
+  height: 105%;
+  margin: 10px;
+  padding: 13px;
+  font-size: 16px;
+  background: #f2f3f6;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+  color: #868b94;
+}
+input[type=text]:focus {
+  color: black;
+}
+
+button {
+  width: 180px;
+  height: 105%;
+  border: 0.6px solid #a3a1a1;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 16px;
 }
 
 main {
