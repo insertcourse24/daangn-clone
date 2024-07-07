@@ -3,25 +3,32 @@
     height: 104px;
 
     display: flex;
+    align-items: center;
+    justify-content: center;
 
     background-color: #F8F9FA;
 }
 
 #fleamarket-keywords h3 {
-    margin: auto 40px auto auto;
+    margin-right: 56px;
 }
 
 #fleamarket-keywords ul {
-    margin: auto auto auto 0;
     display: flex;
+    gap: 33px;
 }
 
-#fleamarket-keywords ul li {
-    margin: 16px;
-    
+#fleamarket-keywords ul li {    
     color: rgb(33, 37, 41);
 
     list-style: none;
     
     display: inline-block;
 }
+
+#fleamarket-keywords ul li a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+

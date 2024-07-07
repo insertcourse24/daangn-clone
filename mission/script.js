@@ -26,7 +26,7 @@ async function fetchJsonFile() {
 fetchJsonFile();
 
 const keywordList = document.querySelector('#keywords-list');
-const keywords = ['알바','자전거','나눔','최강야구','한화','프리퀀시','에어컨','냉장고','삼성라이온즈','선풍기'];
+const keywords = ['알바','자전거','나눔','최강야구','한화','프리퀀시','에어컨','선풍기','제습기','삼성라이온즈'];
 
 keywords.forEach(element => {
     keywordList.innerHTML += `<keyword-comp text="${element}"></keyword-comp>`;
