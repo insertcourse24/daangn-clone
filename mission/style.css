@@ -9,6 +9,7 @@ html,body{
 }
 header{
   display: flex;
+  z-index: 5;
   justify-content: space-between;
   background-color: white;
   position: fixed;
@@ -25,26 +26,101 @@ section{
   width: 100%;
   padding-left: 120px;
   padding-right: 120px;
+  padding-top: 200px;
   height: 700px;
 }
 #sec1{
+  display: flex;
+  justify-content: space-between;
   background-color: rgb(255, 253, 222);
 }
+#sec1 > div > input[type=button]{
+  width: 170px;
+  height: 50px;
+  margin-right:5px;
+  margin-top:30px;
+  font-weight: bold;
+  background-color: orange;
+  color:white;
+  border:none;
+  border-radius: 5px;
+}
 #sec2{
+  display: flex;
+  justify-content: space-between;
   background-color: rgb(246, 246, 246);
 }
+#sec2 > div > input[type=button]{
+  width: auto;
+  height: 50px;
+  margin-right:5px;
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(224, 223, 223);
+  color:black;
+  border:none;
+  border-radius: 5px;
+}
+#sec2 > div >.txt{
+  position: relative;
+  top: -500px;
+  left: 600px;
+}
 #sec3{
+  display: flex;
+  justify-content: space-between;
   background-color: rgb(255, 248, 224);
 }
 #sec4{
+  display: flex;
+  justify-content: space-between;
   background-color: whitesmoke;
 }
+#sec4 > div > input[type=button]{
+  width: auto;
+  height: 50px;
+  margin-right:5px;
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(224, 223, 223);
+  color:black;
+  border:none;
+  border-radius: 5px;
+}
 #sec5{
-  background-color: rgb(195, 243, 172);
+  background-color: rgb(238, 251, 231);
+}
+#sec5 > div > input[type=button]{
+  width: auto;
+  height: 50px;
+  margin-right:5px;
+  font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(224, 223, 223);
+  color:black;
+  border:none;
+  border-radius: 5px;
 }
 section > div{
-  width: 100%;
-  height: 100%;
+  width: 500px;
+  height: 350px;
+  margin-left: 100px;
+}
+section > div > h1{
+  font-size: 50px;
+}
+section > div > p{
+  font-size:20px;
+  color: rgb(153, 153, 153);
 }
 .container1{
   width:45%;
@@ -66,11 +142,39 @@ input[type=text]{
   border-radius: 5px;
   border:none;
 }
-input[type=button]{
+.container2> input[type=button]{
   height: 40px;
   width: 70px;
   font-size: 15px;
   background-color: white;
   border-radius: 5px;
   border-width: 1px;
+}
+.picpr{
+  margin-top: 40px;
+  display: flex;
+  width: 300px;
+  height: 60px;
+  justify-content: space-between;
+}
+.pic{
+  width: 50px;
+  height: 50px;
+  background-color: rgb(252, 199, 101);
+  
+  border-radius: 5px;
+}
+.picname{
+  width: 400px;
+  display: flex;
+  gap:68px;
+}
+.picinfo{
+  width: 400px;
+  display: flex;
+  gap:33px;
+}
+.picinfo>p{
+  color:rgb(153, 153, 153);
+  font-size: 12px;
 }
