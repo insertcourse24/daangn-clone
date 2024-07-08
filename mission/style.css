@@ -148,9 +148,27 @@ p{
   font-size: 16px;
 }
 
-.buttonLogoImg {
-  margin: 0 auto;
+.buttonLogoImgGP {
+  position: relative;
+  left: -5px;
+  top: 3px;
 }
+
+.buttonLogoImgAS {
+  position: relative;
+  left: -7px;
+  top: 0.4px;
+}
+
+.AStext {
+  position: relative;
+  bottom: 4px;
+}
+.GPtext {
+  position: relative;
+  bottom: 3px;
+}
+
 .mainButton > span{
   margin-bottom: 10px;
 }
