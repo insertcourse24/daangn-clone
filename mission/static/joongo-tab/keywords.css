@@ -3,21 +3,22 @@
     height: 104px;
 
     display: flex;
+    align-items: center;
+    justify-content: center;
 
     background-color: #F8F9FA;
 }
 
 #fleamarket-keywords h3 {
-    margin: auto 40px auto auto;
+    margin-right: 56px;
 }
 
 #fleamarket-keywords ul {
-    margin: auto auto auto 0;
     display: flex;
+    gap: 33px;
 }
 
 keyword-comp li {
-    margin: 16px;
     color: rgb(33, 37, 41);
     
     list-style: none;
