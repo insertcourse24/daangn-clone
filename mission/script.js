@@ -12,7 +12,7 @@ async function fetchJsonFile() {
     data.data.map((dataa)=>{
         div.innerHTML += `<card-comp 
         title="${dataa.name}"
-        price="${dataa.price}원"
+        price="20000원"
         region-name="${dataa.address}"
         imgSrc="${dataa.img}">
         </card-comp>`;
