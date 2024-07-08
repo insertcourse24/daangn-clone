@@ -7,9 +7,10 @@
 header {
   display: flex;
   justify-content: space-around;
-  position: sticky;
+  position: fixed;
   top: 0px; /* 도달했을때 고정시킬 위치 */
   height: 64px;
+  width: 100%;
   background-color: #ffffff;
 }
 #wrapLogo {
@@ -107,6 +108,49 @@ footer {
 
 main {
   background-color: #fffae0;
+}
+.font {
+  
+  font-size: 54px;
+  margin: 0px 0px 32px;
+  padding: 200px 0px 0px;
+  width: 1024px;
+  height: 346px;
+}
+p{
+  padding: 200px 0px 0px;
+  font-size: 20px;
+  color: #7c7c7c;
+  height: 60px;
+}
+#daangnee {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 655px;
+  height: 800px;
+}
+#test {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 15%;
+  flex-direction: column;
+}
+
+.mainButton {
+  width: 180px;
+  height: 56px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #fe6f0f;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.buttonLogoImg {
+  text-align: center;
+  margin-right: 10px;
 }
 
 #section1,
