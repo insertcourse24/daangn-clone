@@ -26,7 +26,6 @@ footer > div {
     gap: 32px;
 }
 
-
 #footer-top keyword-comp a {
     font-size: 14px !important;
 }
@@ -130,6 +129,7 @@ footer > div {
 #inquiry-list a {
     font-weight: 700 !important;
 }
+
 .footer-a{
     color : rgb(134, 139, 148);
     font-size : 13.008px;
