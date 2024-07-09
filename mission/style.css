@@ -35,12 +35,15 @@ section{
   background-color: rgb(255, 253, 222);
 }
 #sec1 > div > input[type=button]{
+  background-repeat: no-repeat;
+  background-position-x: 28px;
+  background-position-y: 15px;
   width: 170px;
   height: 50px;
   margin-right:5px;
   margin-top:30px;
   font-weight: bold;
-  background-color: orange;
+  background-color: #FF6F0F;
   color:white;
   border:none;
   border-radius: 5px;
