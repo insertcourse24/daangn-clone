@@ -31,7 +31,11 @@ a:visited {
 a:hover{
   color: #868b94;
 }
-a:click {
+a:active {
+  color: #fe6f0f;
+}
+
+#textColor{
   color: #fe6f0f;
 }
 
