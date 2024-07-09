@@ -40,7 +40,7 @@ a:active {
 }
 
 .bigBox1 {
-  width: 1155px;
+  width: 1024px;
   height: 64px;
   display: flex;
   justify-content: center;
@@ -112,33 +112,36 @@ footer {
 }
 
 .indexMain {
+  width: 100%;
   height: 750px;
   background-color: #fffae0;
 }
 .font {
-  font-size: 53.4px;
-  line-height: 76px;
+  font-size: 48px;
+  line-height: 70px;
   width: 1024px;
   height: 137px;
+  padding-left: 20px;
+  padding-top: 40px;
 }
 p{
-  padding: 40px 0px 0px;
+  padding-left: 20px;
+  padding-top: 70px;
   font-size: 20px;
   line-height: 32px;
   color: #7c7c7c;
   height: 60px;
 }
 #daangnee {
-  position: relative;
-  bottom: 650px;
-  left: 750px;
-  width: 645px;
-  height: 790px;
+  margin-left: 670px;
+  margin-top: -580px;
+  width: 600px;
+  height: 745px;
 }
 #test {
-  display: block;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
   padding: 14%;
   flex-direction: column;
 }
@@ -183,15 +186,14 @@ span {
 }
 
 #buttonSort{
-  width: 27%;
+  width: 28.5%;
   height: 56px;
-  position: relative;
-  bottom: 930px;
-  left: 5px;
-  margin-left: 199px;
   display: flex;
   justify-content: space-between;
+  margin-left: 200px;
+  margin-top: -250px;
 }
+
 #section1,
 #section3 {
   background-color: #f9f9f9;
@@ -245,4 +247,8 @@ footer {
   position: relative;
   bottom: -65px;
   left: 3px;
+}
+
+h1 {
+  font-size: 32px;
 }
