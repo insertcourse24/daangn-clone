@@ -102,7 +102,7 @@ button {
   font-size: 16px;
 }
 
-main,
+
 #section1,
 #section2,
 #section3,
@@ -111,7 +111,8 @@ footer {
   height: 750px;
 }
 
-main {
+.indexMain {
+  height: 750px;
   background-color: #fffae0;
 }
 .font {
