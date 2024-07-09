@@ -218,7 +218,10 @@ input[type=text]{
 #items > img{
   width:223px;
   height: 223px;
-  border-radius: 5px;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(241, 241, 241);
 }
 #items > h2{
   font-size: 16px;
