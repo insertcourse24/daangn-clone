@@ -214,13 +214,35 @@ footer {
   width: 100%;
   height: 380px;
   padding-right: 23%;
+  padding-left: 24%;
   background-color: #FFF1AA;
-  display: flex;
-  justify-content: flex-end;
-  align-items: end;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* align-items: end; */
 }
 
 #headerBanner {
   width: 416px;
-  height: 315px;
+  height: 318px;
+  position: relative;
+  bottom: 116px;
+  left: 355px;
+}
+
+#pageText {
+  font-size: 33px;
+  width: 768px;
+  height: 130px;
+  line-height: 50px;
+  position: relative;
+  bottom: -120px;
+}
+
+#pagePtext {
+  width: 768px;
+  height: 47.52px;
+  color: #212529;
+  position: relative;
+  bottom: -65px;
+  left: 3px;
 }
