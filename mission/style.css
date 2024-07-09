@@ -131,8 +131,13 @@ section > div > p{
   margin: auto 0;
 }
 .item{
+  text-decoration: none;
   text-align: center;
   margin: auto 0;
+  color: black;
+}
+#trade:hover{
+  color:gray;
 }
 input[type=text]{
   width:270px;
