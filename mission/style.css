@@ -215,7 +215,7 @@ input[type=text]{
 #items{
   width: 223px;
   height: 340px;
-  margin-bottom: 50px;
+  margin: auto;
   border: none;
 }
 #items > img{
