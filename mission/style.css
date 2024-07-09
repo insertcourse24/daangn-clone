@@ -190,5 +190,49 @@ input[type=text]{
   padding-top: 60px;
   padding-left: 340px;
   padding-right: 340px;
-  background-color: rgb(255, 243, 149);
+  background-color: rgb(252, 233, 178);
+}
+.containerMain{
+  width:55%;
+  height:1700px;
+  margin-top: 36px;
+  margin-right: 340px;
+  margin-left:340px;
+}
+#imgcontainer{
+  margin-top:40px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#items{
+  width: 223px;
+  height: 340px;
+  margin-bottom: 50px;
+  border: none;
+}
+#items > img{
+  width:223px;
+  height: 223px;
+  border-radius: 5px;
+}
+#items > h2{
+  font-size: 16px;
+  color: #212529;
+  margin-bottom: 4px;
+  letter-spacing: -0.02px;
+  line-height: 1.5;
+  font-weight: normal;
+}
+#items > p{
+  font-size: 13px;
+  color: #212529;
+  white-space: nowrap;
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+#items > div{
+  font-size:15px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 4px;
 }
