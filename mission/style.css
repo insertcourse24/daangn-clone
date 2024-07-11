@@ -24,6 +24,7 @@ header {
 }
 a {
   text-align: center;
+  color:black;
 }
 a:visited {
   color: black;
@@ -124,7 +125,7 @@ footer {
   padding-left: 20px;
   padding-top: 40px;
 }
-p{
+#indexP{
   padding-left: 20px;
   padding-top: 70px;
   font-size: 20px;
@@ -133,15 +134,13 @@ p{
   height: 60px;
 }
 #daangnee {
-  margin-left: 670px;
+  margin-left: 700px;
   margin-top: -580px;
   width: 600px;
   height: 745px;
 }
 #test {
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
   padding: 14%;
   flex-direction: column;
 }
@@ -186,12 +185,12 @@ span {
 }
 
 #buttonSort{
-  width: 28.5%;
+  width: 26%;
   height: 56px;
   display: flex;
   justify-content: space-between;
-  margin-left: 200px;
-  margin-top: -250px;
+  margin-left: 220px;
+  margin-top: -280px;
 }
 
 #section1,
@@ -215,12 +214,9 @@ footer {
 #banner {
   width: 100%;
   height: 380px;
-  padding-right: 23%;
+  padding-right: 37%;
   padding-left: 24%;
   background-color: #FFF1AA;
-  /* display: flex; */
-  /* justify-content: flex-end; */
-  /* align-items: end; */
 }
 
 #headerBanner {
@@ -245,10 +241,22 @@ footer {
   height: 47.52px;
   color: #212529;
   position: relative;
-  bottom: -65px;
+  bottom: -105px;
   left: 3px;
 }
 
-h1 {
+#product > h1 {
   font-size: 32px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.list{
+  width: 500px;
+  height: 1000px;
+  margin: 0 auto;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
 }
