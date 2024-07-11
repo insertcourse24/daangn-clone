@@ -10,7 +10,7 @@ header {
   position: fixed;
   z-index: 5;
   top: 0px; /* 도달했을때 고정시킬 위치 */
-  height: 64px;
+  height: 70px;
   width: 100%;
   background-color: #ffffff;
 }
@@ -41,7 +41,7 @@ a:active {
 }
 
 .bigBox1 {
-  width: 1024px;
+  width: 1400px;
   height: 64px;
   display: flex;
   justify-content: center;
@@ -52,7 +52,7 @@ a:active {
   display: flex;
   justify-content: flex-start;
   align-items: end;
-  width: 670px;
+  width: 900px;
   height: 25px;
   margin: 0 auto;
 }
@@ -104,18 +104,16 @@ button {
 }
 
 
-#section1,
-#section2,
-#section3,
-#section4,
-footer {
+#section1{
   height: 750px;
 }
 
 .indexMain {
   width: 100%;
-  height: 750px;
+  height: 900px;
   background-color: #fffae0;
+  padding-bottom: 200px;
+  padding-left: 100px;
 }
 .font {
   font-size: 48px;
@@ -127,17 +125,17 @@ footer {
 }
 #indexP{
   padding-left: 20px;
-  padding-top: 70px;
+  padding-top: 65px;
   font-size: 20px;
   line-height: 32px;
   color: #7c7c7c;
   height: 60px;
 }
 #daangnee {
-  margin-left: 700px;
-  margin-top: -580px;
-  width: 600px;
-  height: 745px;
+  margin-left: 800px;
+  margin-top: -630px;
+  width: 680px;
+  height: 825px;
 }
 #test {
   display: flex;
@@ -185,25 +183,16 @@ span {
 }
 
 #buttonSort{
-  width: 26%;
+  width: 22%;
   height: 56px;
   display: flex;
   justify-content: space-between;
-  margin-left: 220px;
-  margin-top: -280px;
+  margin-left: 250px;
+  margin-top: -340px;
 }
 
-#section1,
-#section3 {
+#section1 {
   background-color: #f9f9f9;
-}
-
-#section2 {
-  background-color: #fff8f1;
-}
-
-#section4 {
-  background-color: #f6fdeb;
 }
 
 footer {
@@ -215,7 +204,7 @@ footer {
   width: 100%;
   height: 380px;
   padding-right: 37%;
-  padding-left: 24%;
+  padding-left: 30%;
   background-color: #FFF1AA;
 }
 
