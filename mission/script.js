@@ -3,10 +3,12 @@ fetch('../data.json')
         return response.json();
     })
     .then((data) => {
-        let html = data.data.map((item) => {
-            return `<img src="${item.img}" alt="${item.name}">
-            <span>${item.name}<span>
-            <p>${item.address}</p>`;
+        data.data.map((item) => {
+            document.querySelector('.item').innerHTML += `<article>
+                <img class="productImg" src=".${item.img}" alt="${item.name}"><br />
+                <span>${item.name}</span></br>
+                <p><b>123004원</b></p>
+                <p>${item.address}</p>
+            </article>`;
         })
-        document.querySelector('.list').innerHTML = html;
     });

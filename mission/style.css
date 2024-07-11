@@ -252,11 +252,33 @@ footer {
 }
 
 .list{
-  width: 500px;
-  height: 1000px;
-  margin: 0 auto;
+  height: 1542px;
+  width: 757px;
 }
 .item {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+article{
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+.productImg {
+  width: 223px;
+  height: 230px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #a3a1a1;
+  margin-bottom: 20px;
+}
+
+#wrapFooter {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
+  margin-top: 50px;
+}
+
+p {
+  line-height: 30px;
+  font-size: 16px;
 }
