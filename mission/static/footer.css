@@ -16,7 +16,6 @@ footer > div {
     margin-left: 16px;
     display: flex;
     gap: 50px;
-
     margin-right: 15%;
 }
 
@@ -33,7 +32,6 @@ footer > div {
 #footer-top .download-btns {
     display: flex;
     gap: 13px;
-    
     margin-top: 8px;
 }
 
@@ -41,27 +39,17 @@ footer > div {
     display: flex;
     align-items: center;
     justify-content: center;
-    
     gap: 8px;
-
     width: 147px;
     height: 44px;
-
     color:  rgb(33, 33, 36);
     background-color: rgb(242, 243, 246);
-
     border: none;
     border-radius: 10px;
-
     font-weight: 600;
     font-size: 14px;
-
     text-decoration: none;
 }
-
-/* #footer-top .store-btn img{
-    fill:  rgb(33, 33, 36) !important;
-} */
 
 #footer-top > div > p {
     font-size : 14px;
@@ -71,23 +59,18 @@ footer > div {
 #footer-bottom {
     display: flex;
     justify-content: space-between;
-
     padding-top: 24px;
     margin-bottom: 16px;
-
     /* border-top: #EAEBEE; */
     border-top: 1px solid #EAEBEE;
 }
 
 #footer-bottom-left > span {
     display: inline-block;
-
     font-size: 13px;
     font-weight: 400;
     line-height: 19.512px;
-
     color: rgb(134, 139, 148);
-
     margin-bottom: 16px;
 }
 
@@ -102,14 +85,12 @@ footer > div {
 #lang-select {
     padding: 8px;
     height: 32px;
-
     display: flex;
 }
 
 #icons {
     display: flex;
     align-items: flex-start;
-
     padding-top: 4px;
 }
 
@@ -117,7 +98,6 @@ footer > div {
     font-size: 13px;
     margin-left: 4px;
     margin-right: 10px;
-
 }
 
 #lang-select {
@@ -139,7 +119,6 @@ footer > div {
     font-weight: 700;
     line-height: 19.512px;
     margin-right : 16px;
-
     text-decoration: none;
 }
 
