@@ -15,9 +15,8 @@ async function fetchJsonFile() {
         title="${dataa.name}"
         price="20000원"
         region-name="${dataa.address}"
-        imgSrc="${dataa.img}">
+        imgSrc="../.${dataa.img}">
         </card-comp>`;
-        // console.log(dataa);
     });
 
 }

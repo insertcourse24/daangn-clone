@@ -1,11 +1,9 @@
 #fleamarket-keywords {
     width: 100%;
     height: 104px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-color: #F8F9FA;
 }
 
@@ -20,9 +18,7 @@
 
 keyword-comp li {
     color: rgb(33, 37, 41);
-    
     list-style: none;
-    
     display: inline-block;
 }
 
