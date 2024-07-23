@@ -16,6 +16,7 @@
     letter-spacing: -0.32px;
     font-size: 34px;
     color: rgb(33, 37, 41);
+    white-space: pre-line;
 }
 
 #cover-content > p {
@@ -24,6 +25,7 @@
     line-height: 1.32;
     letter-spacing: -0.18px;
     color: rgb(33, 37, 41);
+    white-space: pre-line;
 }
 
 
