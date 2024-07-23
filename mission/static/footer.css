@@ -59,10 +59,9 @@ footer > div {
     text-decoration: none;
 }
 
-
-#footer-top .store-btn svg path{
+/* #footer-top .store-btn img{
     fill:  rgb(33, 33, 36) !important;
-}
+} */
 
 #footer-top > div > p {
     font-size : 14px;
@@ -96,7 +95,7 @@ footer > div {
     display: flex;
 }
 
-#footer-bottom-right > #icons > svg{
+#footer-bottom-right > #icons > img{
     margin-right: 16px;
 }
 
@@ -123,6 +122,10 @@ footer > div {
 
 #lang-select {
     color: rgb(134, 139, 148);
+}
+
+#lang-select > img{
+    width: 16px;
 }
 
 
