@@ -3,6 +3,7 @@
 //JSON 살포 코드
 const url = '/data.json';
 
+
 const div = document.querySelector('#card-wrap');
 
 async function fetchJsonFile() {
@@ -18,6 +19,7 @@ async function fetchJsonFile() {
         </card-comp>`;
         // console.log(dataa);
     });
+
 }
 
 fetchJsonFile();
