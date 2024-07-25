@@ -3,11 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
   min-height: 100vh;
   min-width: 100vh;
 }
-header{
+
+header {
   display: flex;
   z-index: 5;
   justify-content: space-between;
@@ -16,141 +19,162 @@ header{
   padding-left: 120px;
   padding-right: 120px;
   top: 0px;
-  width:100%;
+  width: 100%;
   height: 70px;
 }
-body{
+
+body {
   padding-top: 70px;
 }
-section{
+
+section {
   width: 100%;
   padding-left: 120px;
   padding-right: 120px;
   padding-top: 200px;
   height: 700px;
 }
-#sec1{
+
+#sec1 {
   display: flex;
   justify-content: space-between;
   background-color: rgb(255, 253, 222);
 }
-#sec1 > div > input[type=button]{
+
+#sec1>div>input[type=button] {
   background-repeat: no-repeat;
   background-position-x: 28px;
   background-position-y: 15px;
   width: 170px;
   height: 50px;
-  margin-right:5px;
-  margin-top:30px;
+  margin-right: 5px;
+  margin-top: 30px;
   font-weight: bold;
   background-color: #FF6F0F;
-  color:white;
-  border:none;
+  color: white;
+  border: none;
   border-radius: 5px;
 }
-#sec2{
+
+#sec2 {
   display: flex;
   justify-content: space-between;
   background-color: rgb(246, 246, 246);
 }
-#sec2 > div > input[type=button]{
+
+#sec2>div>input[type=button] {
   width: auto;
   height: 50px;
-  margin-right:5px;
+  margin-right: 5px;
   font-size: 16px;
-  padding : 0 20px;
+  padding: 0 20px;
   font-weight: bold;
   text-align: center;
   background-color: rgb(224, 223, 223);
-  color:black;
-  border:none;
+  color: black;
+  border: none;
   border-radius: 5px;
 }
-#sec2 > div >.txt{
+
+#sec2>div>.txt {
   position: relative;
   top: -500px;
   left: 600px;
 }
-#sec3{
+
+#sec3 {
   display: flex;
   justify-content: space-between;
   background-color: rgb(255, 248, 224);
 }
-#sec4{
+
+#sec4 {
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
 }
-#sec4 > div > input[type=button]{
+
+#sec4>div>input[type=button] {
   width: auto;
   height: 50px;
-  margin-right:5px;
+  margin-right: 5px;
   font-size: 16px;
   padding-right: 20px;
   padding-left: 20px;
   font-weight: bold;
   text-align: center;
   background-color: rgb(224, 223, 223);
-  color:black;
-  border:none;
+  color: black;
+  border: none;
   border-radius: 5px;
 }
-#sec5{
+
+#sec5 {
   background-color: rgb(238, 251, 231);
 }
-#sec5 > div > input[type=button]{
+
+#sec5>div>input[type=button] {
   width: auto;
   height: 50px;
-  margin-right:5px;
+  margin-right: 5px;
   font-size: 16px;
   padding-right: 20px;
   padding-left: 20px;
   font-weight: bold;
   text-align: center;
   background-color: rgb(224, 223, 223);
-  color:black;
-  border:none;
+  color: black;
+  border: none;
   border-radius: 5px;
 }
-section > div{
+
+section>div {
   width: 500px;
   height: 350px;
   margin-left: 100px;
 }
-section > div > h1{
+
+section>div>h1 {
   font-size: 50px;
 }
-section > div > p{
-  font-size:20px;
+
+section>div>p {
+  font-size: 20px;
   color: rgb(153, 153, 153);
 }
-.container1{
-  width:45%;
+
+.container1 {
+  width: 45%;
   display: flex;
   justify-content: space-between;
 }
-.container2{
+
+.container2 {
   margin: auto 0;
 }
-.item{
+
+.item {
   text-decoration: none;
   text-align: center;
   margin: auto 0;
   color: black;
 }
-#trade:hover{
-  color:gray;
+
+#trade:hover {
+  color: gray;
 }
-input[type=text]{
-  width:270px;
+
+input[type=text] {
+  width: 270px;
   height: 40px;
   font-size: 15px;
-  padding-left:15px;
+  padding-left: 15px;
   background-color: rgb(238, 238, 238);
   border-radius: 5px;
-  border:none;
+  border: none;
 }
-.container2> input[type=button]{
+
+.container2>input[type=button] {
   height: 40px;
   width: 70px;
   font-size: 15px;
@@ -158,38 +182,60 @@ input[type=text]{
   border-radius: 5px;
   border-width: 1px;
 }
-.picpr{
+
+.picpr {
   margin-top: 40px;
   display: flex;
   width: 300px;
   height: 60px;
   justify-content: space-between;
 }
-.pic{
+
+.pic {
   width: 50px;
   height: 50px;
   background-color: rgb(252, 199, 101);
-  
+
   border-radius: 5px;
 }
-.picname{
+
+.pic1 {
+  background-image: url(../assets/circle.png);
+  background-size: cover;
+}
+
+.pic2 {
+  background-image: url(../assets/question.png);
+  background-size: cover;
+}
+
+.pic3 {
+  background-image: url(../assets/lost.png);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: 5px;
+}
+
+.picname {
   width: 400px;
   display: flex;
-  gap:68px;
+  gap: 68px;
 }
-.picinfo{
+
+.picinfo {
   width: 400px;
   display: flex;
-  gap:33px;
+  gap: 33px;
 }
-.picinfo>p{
-  color:rgb(153, 153, 153);
+
+.picinfo>p {
+  color: rgb(153, 153, 153);
   font-size: 12px;
 }
 
 
 
-.containerTop{
+.containerTop {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -199,31 +245,36 @@ input[type=text]{
   padding-right: 340px;
   background-color: rgb(252, 233, 178);
 }
-.containerMain{
-  width:55%;
-  height:1700px;
+
+.containerMain {
+  width: 55%;
+  height: 1700px;
   margin-top: 36px;
   margin-right: 340px;
-  margin-left:340px;
+  margin-left: 340px;
 }
-#imgcontainer{
-  margin-top:40px;
-  display:grid;
+
+#imgcontainer {
+  margin-top: 40px;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-#items{
+
+#items {
   width: 223px;
   height: 340px;
   margin: auto;
   border: none;
 }
-#items > img{
-  width:223px;
+
+#items>img {
+  width: 223px;
   height: 223px;
   border-radius: 12px;
-  border : 1px solid rgb(241, 241, 241);
+  border: 1px solid rgb(241, 241, 241);
 }
-#items > h2{
+
+#items>h2 {
   font-size: 16px;
   color: #212529;
   margin-bottom: 4px;
@@ -231,16 +282,82 @@ input[type=text]{
   line-height: 1.5;
   font-weight: normal;
 }
-#items > p{
+
+#items>p {
   font-size: 13px;
   color: #212529;
   white-space: nowrap;
   margin-bottom: 4px;
   line-height: 1.5;
 }
-#items > div{
-  font-size:15px;
+
+#items>div {
+  font-size: 15px;
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 4px;
+}
+
+.orangeP {
+  color: #FF6F0F;
+  font-weight: bold;
+}
+
+.google {
+  background-image: url(../assets/GooglePlay.png);
+}
+
+.apple {
+  background-image: url(../assets/AppStore.png);
+  background-position: 31px;
+}
+
+.mascort {
+  position: absolute;
+  top: 0;
+}
+
+.section1 {
+  position: relative;
+  top: -200px;
+}
+
+.section2 {
+  position: relative;
+  top: -200px;
+  right: 200px;
+}
+
+.section3 {
+  position: relative;
+  top: -200px;
+}
+
+.section4 {
+  position: relative;
+  top: -550px;
+  left: 400px;
+}
+
+.sectioncontainer>h1 {
+  font-size: 45px;
+}
+
+.containerToph1 {
+  line-height: 34px;
+  line-height: 50px;
+}
+
+.containerTopp {
+  font-size: 105%;
+}
+
+.containerTopimg {
+  position: relative;
+  top: -60px;
+}
+
+.containerMainh1 {
+  text-align: center;
+  font-size: 32px;
 }
