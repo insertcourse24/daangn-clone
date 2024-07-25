@@ -20,7 +20,7 @@ header {
   padding-right: 120px;
   top: 0px;
   width: 100%;
-  height: 70px;
+  height: 13vh;
 }
 
 body {
@@ -32,7 +32,7 @@ section {
   padding-left: 120px;
   padding-right: 120px;
   padding-top: 200px;
-  height: 700px;
+  height: 43.55rem;
 }
 
 #sec1 {
@@ -45,8 +45,8 @@ section {
   background-repeat: no-repeat;
   background-position-x: 28px;
   background-position-y: 15px;
-  width: 170px;
-  height: 50px;
+  width: 14vw;
+  height: 8vh;
   margin-right: 5px;
   margin-top: 30px;
   font-weight: bold;
@@ -64,7 +64,7 @@ section {
 
 #sec2>div>input[type=button] {
   width: auto;
-  height: 50px;
+  height: 8vh;
   margin-right: 5px;
   font-size: 16px;
   padding: 0 20px;
@@ -96,7 +96,7 @@ section {
 
 #sec4>div>input[type=button] {
   width: auto;
-  height: 50px;
+  height: 8vh;
   margin-right: 5px;
   font-size: 16px;
   padding-right: 20px;
@@ -115,7 +115,7 @@ section {
 
 #sec5>div>input[type=button] {
   width: auto;
-  height: 50px;
+  height: 8vh;
   margin-right: 5px;
   font-size: 16px;
   padding-right: 20px;
