@@ -114,19 +114,24 @@ button {
   background-color: #fffae0;
   padding: 0 100px;
 }
+.wrapTextIndex{
+  margin-bottom: 2em
+}
 .font {
   font-size: 48px;
-  line-height: 70px;
+  line-height: 75px;
   width: 95vw;
   height: 13vh;
-  padding: 40px 0 20px 0;
+  /* margin-top: 1em; */
+  /* padding: 40px 0 20px 0; */
 }
-#indexP{
-  padding: 65px 0 20px 0;
+.indexP{
+  margin-top: 1rem;
+  /* padding: 65px 0 20px 0; */
   font-size: 20px;
-  line-height: 32px;
+  line-height: 1em;
   color: #7c7c7c;
-  height: 3em;
+  height: 1em;
 }
 #daangnee {
   margin-left: 800px;
@@ -186,7 +191,7 @@ span {
   display: flex;
   justify-content: space-between;
   margin-left: 14em;
-  margin-top: -22em;
+  margin-top: -25em;
 }
 
 footer {
