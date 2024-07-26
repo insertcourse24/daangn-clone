@@ -141,13 +141,14 @@ button {
 }
 
 .mainButton {
-  width: 180px;
-  height: 56px;
+  width: 40em;
+  height: 4em;
   border-radius: 10px;
   border-style: none;
   background-color: #fe6f0f;
   color: #ffffff;
   font-size: 16px;
+  margin-right: 1em;
 }
 
 .buttonLogoImgGP {
@@ -180,7 +181,7 @@ span {
 }
 
 #buttonSort{
-  width: 23em;
+  width: 24em;
   height: 11em;
   display: flex;
   justify-content: space-between;
@@ -188,18 +189,14 @@ span {
   margin-top: -22em;
 }
 
-#section1 {
-  background-color: #f9f9f9;
-}
-
 footer {
-  height: 647.52px;
+  height: 90vh;
   background-color: #ffffff;
 }
 
 #banner {
-  width: 100%;
-  height: 380px;
+  width: 100vw;
+  height: 37.4vh;
   padding-right: 37%;
   padding-left: 30%;
   background-color: #FFF1AA;
@@ -215,7 +212,7 @@ footer {
 
 #pageText {
   font-size: 33px;
-  width: 768px;
+  width: 120em;
   height: 130px;
   line-height: 50px;
   position: relative;
@@ -238,8 +235,8 @@ footer {
 }
 
 .list{
-  height: 1542px;
-  width: 757px;
+  width: 40vw;
+  height: 100vh;
 }
 .item {
   display: grid;
@@ -250,8 +247,8 @@ article{
   margin-right: 50px;
 }
 .productImg {
-  width: 223px;
-  height: 230px;
+  width: 14em;
+  height: 15em;
   border-radius: 20px;
   border: 1px solid #a3a1a1;
   margin-bottom: 20px;
