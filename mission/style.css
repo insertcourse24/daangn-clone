@@ -61,8 +61,8 @@ a:active {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 389.37px;
-  height: 38px;
+  width: 25vw;
+  height: 4vh;
 }
 
 .menu {
@@ -94,7 +94,7 @@ input[type=text]:focus {
 }
 
 button {
-  width: 180px;
+  width: 13em;
   height: 105%;
   border: 0.6px solid #a3a1a1;
   border-radius: 5px;
@@ -112,23 +112,21 @@ button {
   width: 100vw;
   height: 90vh;
   background-color: #fffae0;
-  padding: 0 0 100px 100px;
+  padding: 0 100px;
 }
 .font {
   font-size: 48px;
   line-height: 70px;
-  width: 1024px;
-  height: 137px;
-  padding-left: 20px;
-  padding-top: 40px;
+  width: 95vw;
+  height: 13vh;
+  padding: 40px 0 20px 0;
 }
 #indexP{
-  padding-left: 20px;
-  padding-top: 65px;
+  padding: 65px 0 20px 0;
   font-size: 20px;
   line-height: 32px;
   color: #7c7c7c;
-  height: 60px;
+  height: 3em;
 }
 #daangnee {
   margin-left: 800px;
@@ -182,12 +180,12 @@ span {
 }
 
 #buttonSort{
-  width: 22%;
-  height: 56px;
+  width: 23em;
+  height: 11em;
   display: flex;
   justify-content: space-between;
-  margin-left: 250px;
-  margin-top: -340px;
+  margin-left: 14em;
+  margin-top: -22em;
 }
 
 #section1 {
